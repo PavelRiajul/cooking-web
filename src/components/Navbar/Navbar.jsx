@@ -1,5 +1,6 @@
 import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa"
 import "./Navbar.css"
+import { Link } from "react-router-dom"
 
 const Navbar = () => {
   return (
@@ -15,12 +16,12 @@ const Navbar = () => {
         {/* menu items */}
         <nav className="nav_items">
            <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#home">Recipes</a></li>
-            <li><a href="#home">Blog</a></li>
-            <li><a href="#home">Contact</a></li>
-            <li><a href="#home">About us</a></li>
-           </ul>
+            <Link to={"/"}><li><a href="#home">Home</a></li></Link>
+            <Link to={"/recipes"}><li><a href="#home">Recipes</a></li></Link>
+            <Link to={"/blog"}><li><a href="#home">Blog</a></li></Link>
+            <Link to={"/contact"}><li><a href="#home">Contact</a></li></Link>
+            <Link to={"/about"}><li><a href="#home">About us</a></li></Link>
+            </ul>
         </nav>
 
         {/* social icons */}
