@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+  }
+body{
+    width: 100%;
+}
+.container {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+   padding: 100px 15px;
+}
+.insta-recipes{
+    background: linear-gradient(180deg,#fafcfd 0% ,#E7F9FD 100%);
+
+}
+.insta-cards{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5rem;
+    
+
+}
+.insta-btn{
+    text-align: center;
+    background-color: #000;
+    width: 240px;
+    margin: 90px auto;
+    padding: 25px 30px;
+    border-radius: 16px;
+    
+}
+.btn-insta{
+    color: #fff;
+    font-family: "Inter", serif;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    
+}
