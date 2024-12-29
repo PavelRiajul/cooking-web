@@ -17,11 +17,13 @@ body{
 }
 .insta-recipes{
     background: linear-gradient(180deg,#fafcfd 0% ,#E7F9FD 100%);
+    padding: 5px 0;
 
 }
 .insta-cards{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 3rem;
     padding-top: 5rem;
     
 
