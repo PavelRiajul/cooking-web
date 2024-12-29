@@ -50,13 +50,14 @@ body{
 }
 #recipe-card-6{
     padding: 0;
+    height: 0;
 }
 .recipe-image{
     margin-bottom: 20px;
     position: relative;
 }
 .recipe-image img{
-    width: 368px;
+    /* width: 368px; */
 }
 .recipe-name{
     font-family: "Inter", serif;
