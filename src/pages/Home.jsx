@@ -1,5 +1,6 @@
 import Categories from "../components/categories/Categories"
 import CherfSection from "../components/cherf-section/CherfSection"
+import Footer from "../components/footer/Footer"
 import Hero from "../components/Hero/Hero"
 import Inbox from "../components/inbox-section/Inbox"
 import InstaRecipes from "../components/instagram-recipes/InstaRecipes"
@@ -19,6 +20,7 @@ const Home = () => {
         <InstaRecipes/>
         <RecipesCards/>
         <Inbox/>
+        <Footer/>
     </div>
   )
 }
