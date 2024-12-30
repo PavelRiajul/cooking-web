@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+  }
+body{
+    width: 100%;
+}
+.container {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 100px 15px;
+}
+#blog-heading{
+    font-size: 3rem;
+}
+#blog-text{
+
+    width: 1000px;
+}
+#input-search{
+    position: relative;
+    margin-top: 4rem;
+}
+#input{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width: 900px;
+    margin-left: -300px;
+    border-radius: 24px;
+    
+}
+#btn-search{
+    position: absolute;
+    top: 0;
+    left: 250px;
+    border-radius: 16px;
+}
+
+/* article cards */
+.article-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.article-card{
+    display: flex;
+    gap: 2.5rem;
+    width: 80%;
+}
+.article-name{
+    font-family: "Inter", serif;
+    font-weight: 600;
+    font-size: 24px;
+}
+.article-text{
+    font-size: 16px;
+
+    width: 550px;
+    margin-left: -52px;
+    line-height: 2;
+    margin-top: 1rem;
+}
+.ellips-dates{
+    display: flex;
+    justify-content: safe;
+    align-items: center;
+    gap: 3rem;
+    font-family: "Inter", serif;
+}
+.ellips{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-family: "Inter", serif;
+    
+}
+.border{
+    width: 20px;
+    height: 40px;
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+.date-heading{
+    color: rgba(0, 0, 0, 0.6);
+}
+
+/* sidebar articles */
+.articles-categories{
+    display: flex;
+    gap: 3rem;
+}
+.sidebar-articles{
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+}
+.sidebar-article{
+    
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.sidebar-article-category{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-family: "Inter", serif;
+}
+.sidebar-article-heading{
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 1rem;
+}
+
+.sidebar-article-text{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.6);
+}
