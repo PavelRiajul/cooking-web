@@ -7,11 +7,14 @@ const Navbar = () => {
     <>
     <header>
         {/* logo */}
+        <Link to={"/"}>
         <div className="logo">
            <a href="#">
            <img src="/src/assets/Foodieland..png" alt="" />
            </a>
         </div>
+        </Link>
+        
 
         {/* menu items */}
         <nav className="nav_items">
