@@ -1,4 +1,3 @@
-import BlogPost from "../components/blogPosts/BlogPost"
 import Footer from "../components/footer/Footer"
 import Inbox from "../components/inbox-section/Inbox"
 import Navbar from "../components/Navbar/Navbar"
@@ -8,7 +7,6 @@ const Recipes = () => {
   return (
     <div>
       <Navbar/>
-      <BlogPost/>
       <Inbox/>
       <SingleLineRecipeCards/>
       <Footer/>

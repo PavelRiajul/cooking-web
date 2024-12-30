@@ -1,8 +1,12 @@
 import "./BlogPost.css"
 import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa"
+import Navbar from "../Navbar/Navbar"
+import Inbox from "../inbox-section/Inbox"
+import Footer from "../footer/Footer"
 const BlogPost = () => {
   return (
     <>
+    <Navbar/>
     <div className="container blogPosts">
         <h2 className="blog-post-heading">Full Guide Becoming a Professional Chef</h2>
         <div className="ellips-dates" id="date-ellips">
@@ -76,6 +80,8 @@ const BlogPost = () => {
                                 </div>
                   </div>
                 </div>
+                <Inbox/>
+                <Footer/>
     </div>
     </>
   )

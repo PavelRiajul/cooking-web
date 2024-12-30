@@ -4,6 +4,7 @@ import Recipes from "./pages/Recipes"
 import Blog from "./pages/Blog"
 import Contact from "./pages/Contact"
 import About from "./pages/About"
+import BlogPost from "./components/blogPosts/BlogPost"
 const App = () => {
   return (
     <div>
@@ -13,6 +14,7 @@ const App = () => {
         <Route path="/blog" element={<Blog/>}/>
         <Route path="/contact" element={<Contact/>}/>
         <Route path="/about" element={<About/>}/>
+        <Route path="/blogPost" element={<BlogPost/>}/>
       </Routes>
     </div>
   )

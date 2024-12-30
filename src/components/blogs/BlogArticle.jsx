@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import "./BlogArticle.css"
 
 const BlogArticle = () => {
@@ -15,6 +16,7 @@ const BlogArticle = () => {
         </div>
          </div>
          {/* blog articles category */}
+         <Link to={"/blogpost"}>
          <div className="container articles-categories">
            {/* articles cards */}
            <div className="article-cards">
@@ -44,7 +46,7 @@ const BlogArticle = () => {
                 <img src="/src/assets/blog-image/Mask Group (1).png" alt="" />
             </div>
             <div className="article-descriptions">
-                <h2 className="article-name">Crochet Projects for Noodle Lovers</h2>
+                <h2 className="article-name">10 Vegetarian Recipes To Eat This Month</h2>
                 <p className="article-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione deleniti quas quo reiciendis atque inventore ipsam quam laborum.</p>
 
                 <div className="ellips-dates">
@@ -64,7 +66,7 @@ const BlogArticle = () => {
                 <img src="/src/assets/blog-image/Mask Group (2).png" alt="" />
             </div>
             <div className="article-descriptions">
-                <h2 className="article-name">Crochet Projects for Noodle Lovers</h2>
+              <h2 className="article-name">Full Guide to Becoming a Professional Chef</h2>
                 <p className="article-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione deleniti quas quo reiciendis atque inventore ipsam quam laborum.</p>
 
                 <div className="ellips-dates">
@@ -84,7 +86,7 @@ const BlogArticle = () => {
                 <img src="/src/assets/blog-image/Mask Group (3).png" alt="" />
             </div>
             <div className="article-descriptions">
-                <h2 className="article-name">Crochet Projects for Noodle Lovers</h2>
+                <h2 className="article-name">Simple & Delicious Vegetarian Lasagna</h2>
                 <p className="article-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione deleniti quas quo reiciendis atque inventore ipsam quam laborum.</p>
 
                 <div className="ellips-dates">
@@ -104,7 +106,7 @@ const BlogArticle = () => {
                 <img src="/src/assets/blog-image/Mask Group (4).png" alt="" />
             </div>
             <div className="article-descriptions">
-                <h2 className="article-name">Crochet Projects for Noodle Lovers</h2>
+                <h2 className="article-name">Plantain and Pinto Stew with Aji Verde</h2>
                 <p className="article-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione deleniti quas quo reiciendis atque inventore ipsam quam laborum.</p>
 
                 <div className="ellips-dates">
@@ -124,7 +126,7 @@ const BlogArticle = () => {
                 <img src="/src/assets/blog-image/Mask Group (5).png" alt="" />
             </div>
             <div className="article-descriptions">
-                <h2 className="article-name">Crochet Projects for Noodle Lovers</h2>
+                <h2 className="article-name">We're Hiring a Communications Assistant!</h2>
                 <p className="article-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione deleniti quas quo reiciendis atque inventore ipsam quam laborum.</p>
 
                 <div className="ellips-dates">
@@ -177,6 +179,7 @@ const BlogArticle = () => {
             </div>
            </div>
         </div>
+         </Link>
     </div>
     </>
   )
