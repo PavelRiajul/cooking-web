@@ -1,6 +1,7 @@
 import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa"
 import "./Navbar.css"
 import { Link } from "react-router-dom"
+import Foodieland from "../../../public/assets/nav-hero/Foodieland..png"
 
 const Navbar = () => {
   return (
@@ -10,7 +11,7 @@ const Navbar = () => {
         <Link to={"/"}>
         <div className="logo">
            <a href="#">
-           <img src="/public/assets/Foodieland..png" alt="" />
+           <img src={Foodieland} alt="" />
            </a>
         </div>
         </Link>
