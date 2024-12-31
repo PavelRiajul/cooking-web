@@ -10,7 +10,7 @@ const Navbar = () => {
         <Link to={"/"}>
         <div className="logo">
            <a href="#">
-           <img src="/src/assets/Foodieland..png" alt="" />
+           <img src="/public/assets/Foodieland..png" alt="" />
            </a>
         </div>
         </Link>

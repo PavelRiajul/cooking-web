@@ -13,7 +13,7 @@ const CherfSection = () => {
         </div>
         {/* chef image */}
         <div className="chef-image">
-            <img src="/src/assets/cherf-section/Group 880.png" alt="" />
+            <img src="/public/assets/cherf-section/Group 880.png" alt="" />
         </div>
     </div>
     </>

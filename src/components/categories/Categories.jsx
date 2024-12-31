@@ -14,37 +14,37 @@ const Categories = () => {
         <div className="cards">
             <div className="card" id="card1">
                 <div className="card-img">
-                    <img src="/src/assets/categories-cards/image 25.png" alt="" />
+                    <img src="/public/assets/categories-cards/image 25.png" alt="" />
                 </div>
                 <h3>Breakfast</h3>
             </div>
             <div className="card" id="card2">
                 <div className="card-img">
-                    <img src="/src/assets/categories-cards/image 20.png" alt="" />
+                    <img src="/public/assets/categories-cards/image 20.png" alt="" />
                 </div>
                 <h3>Breakfast</h3>
             </div>
             <div className="card" id="card3">
                 <div className="card-img">
-                    <img src="/src/assets/categories-cards/image 21.png" alt="" />
+                    <img src="/public/assets/categories-cards/image 21.png" alt="" />
                 </div>
                 <h3>Breakfast</h3>
             </div>
             <div className="card" id="card4">
                 <div className="card-img">
-                    <img src="/src/assets/categories-cards/image 22.png" alt="" />
+                    <img src="/public/assets/categories-cards/image 22.png" alt="" />
                 </div>
                 <h3>Breakfast</h3>
             </div>
             <div className="card" id="card5">
                 <div className="card-img">
-                    <img src="/src/assets/categories-cards/image 23.png" alt="" />
+                    <img src="/public/assets/categories-cards/image 23.png" alt="" />
                 </div>
                 <h3>Breakfast</h3>
             </div>
             <div className="card" id="card6">
                 <div className="card-img">
-                    <img src="/src/assets/categories-cards/image 24.png" alt="" />
+                    <img src="/public/assets/categories-cards/image 24.png" alt="" />
                 </div>
                 <h3>Breakfast</h3>
             </div>

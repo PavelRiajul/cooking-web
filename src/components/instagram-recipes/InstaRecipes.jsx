@@ -13,16 +13,16 @@ const InstaRecipes = () => {
         {/* insta-cards */}
         <div className=" insta-cards">
             <div className="insta-card">
-                <img src="/src/assets/insta-image/Post.png" alt="" />
+                <img src="/public/assets/insta-image/Post.png" alt="" />
             </div>
             <div className="insta-card">
-                <img src="/src/assets/insta-image/Post (1).png" alt="" />
+                <img src="/public/assets/insta-image/Post (1).png" alt="" />
             </div>
             <div className="insta-card">
-                <img src="/src/assets/insta-image/Post (2).png" alt="" />
+                <img src="/public/assets/insta-image/Post (2).png" alt="" />
             </div>
             <div className="insta-card">
-                <img src="/src/assets/insta-image/Post (3).png" alt="" />
+                <img src="/public/assets/insta-image/Post (3).png" alt="" />
             </div>
         </div>
         <div className="insta-btn">
