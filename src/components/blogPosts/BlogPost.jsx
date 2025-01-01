@@ -3,6 +3,9 @@ import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa"
 import Navbar from "../Navbar/Navbar"
 import Inbox from "../inbox-section/Inbox"
 import Footer from "../footer/Footer"
+import ellipse from "../../../public/assets/blog-post/Ellipse 2.png"
+import image29 from "../../../public/assets/blog-post/image 29.png"
+import rectangle23 from "../../../public/assets/blog-post/Rectangle 23.png"
 const BlogPost = () => {
   return (
     <>
@@ -11,7 +14,7 @@ const BlogPost = () => {
         <h2 className="blog-post-heading">Full Guide Becoming a Professional Chef</h2>
         <div className="ellips-dates" id="date-ellips">
                     <div className="ellips">
-                        <img src="/src/assets/blog-post/Ellipse 2.png" alt="" />
+                        <img src={ellipse} alt="" />
                         <h4 className="ellips-heading">Wade Warren</h4>
                         <span className="border"></span>
                     </div>
@@ -22,7 +25,7 @@ const BlogPost = () => {
                 <h5 className="blog-post-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum aspernatur voluptatum dignissimos voluptatem voluptatibus optio asperiores pariatur at, possimus labore animi ipsa perspiciatis atque adipisci veniam neque nihil quos ipsum dicta?</h5>
 
                 <div id="chef-image">
-                  <img src="/src/assets/blog-post/image 29.png" alt="" />
+                  <img src={image29} alt="" />
                 </div>
 
                 {/* blog post text part */}
@@ -43,7 +46,7 @@ const BlogPost = () => {
                   <div className="blogPostsTexts">
                       <div className="blog-post-text">
                         <h2 id="Blog-post-category-heading">Do you cook at home on your days off?</h2>
-                        <img className="blog-post-img" src="/src/assets/blog-post/Rectangle 23.png" alt="" />
+                        <img className="blog-post-img" src={rectangle23} alt="" />
                         <h5 id="blog-post-category-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore eos id commodi nobis iure impedit a reiciendis magnam dolores illum corporis totam, harum distinctio ullam, iste laborum saepe velit repellendus aliquam vero consequuntur mollitia minus? Recusandae sed ea voluptate eveniet?</h5>
                       </div>
                   </div>

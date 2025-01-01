@@ -1,6 +1,21 @@
 import { Link } from "react-router-dom"
 import "./BlogArticle.css"
-
+import blogImg1 from "../../../public/assets/blog-image/Mask Group.png"
+import blogImg2 from "../../../public/assets/blog-image/Mask Group (1).png"
+import blogImg3 from "../../../public/assets/blog-image/Mask Group (2).png"
+import blogImg4 from "../../../public/assets/blog-image/Mask Group (3).png"
+import blogImg5 from "../../../public/assets/blog-image/Mask Group (4).png"
+import blogImg6 from "../../../public/assets/blog-image/Mask Group (5).png"
+import blogImg7 from "../../../public/assets/blog-image/Mask Group (6).png"
+import blogImg8 from "../../../public/assets/blog-image/Mask Group (7).png"
+import blogImg9 from "../../../public/assets/blog-image/Mask Group (8).png"
+import adsImg from "../../../public/assets/recipes-categories/Ads.png"
+import ellipseIm1 from "../../../public/assets/blog-image/Ellipse 2.png"
+import ellipseIm2 from "../../../public/assets/blog-image/Ellipse 2 (1).png"
+import ellipseIm3 from "../../../public/assets/blog-image/Ellipse 2 (2).png"
+import ellipseIm4 from "../../../public/assets/blog-image/Ellipse 2 (3).png"
+import ellipseIm5 from "../../../public/assets/blog-image/Ellipse 2 (4).png"
+import ellipseIm6 from "../../../public/assets/blog-image/Ellipse 2 (5).png"
 const BlogArticle = () => {
   return (
     <>
@@ -22,7 +37,7 @@ const BlogArticle = () => {
            <div className="article-cards">
            <div className="article-card">
             <div className="article-image">
-                <img src="/src/assets/blog-image/Mask Group.png" alt="" />
+                <img src={blogImg1} alt="" />
             </div>
             <div className="article-descriptions">
                 <h2 className="article-name">Crochet Projects for Noodle Lovers</h2>
@@ -30,7 +45,7 @@ const BlogArticle = () => {
 
                 <div className="ellips-dates">
                     <div className="ellips">
-                        <img src="/src/assets/blog-image/Ellipse 2.png" alt="" />
+                        <img src={ellipseIm1} alt="" />
                         <h4 className="ellips-heading">Wade Warren</h4>
                         <span className="border"></span>
                     </div>
@@ -43,7 +58,7 @@ const BlogArticle = () => {
 
          <div className="article-card">
             <div className="article-image">
-                <img src="/src/assets/blog-image/Mask Group (1).png" alt="" />
+                <img src={blogImg2} alt="" />
             </div>
             <div className="article-descriptions">
                 <h2 className="article-name">10 Vegetarian Recipes To Eat This Month</h2>
@@ -51,7 +66,7 @@ const BlogArticle = () => {
 
                 <div className="ellips-dates">
                     <div className="ellips">
-                        <img src="/src/assets/blog-image/Ellipse 2 (1).png" alt="" />
+                        <img src={ellipseIm2} alt="" />
                         <h4 className="ellips-heading">Wade Warren</h4>
                         <span className="border"></span>
                     </div>
@@ -63,7 +78,7 @@ const BlogArticle = () => {
          </div>
          <div className="article-card">
             <div className="article-image">
-                <img src="/src/assets/blog-image/Mask Group (2).png" alt="" />
+                <img src={blogImg3} alt="" />
             </div>
             <div className="article-descriptions">
               <h2 className="article-name">Full Guide to Becoming a Professional Chef</h2>
@@ -71,7 +86,7 @@ const BlogArticle = () => {
 
                 <div className="ellips-dates">
                     <div className="ellips">
-                        <img src="/src/assets/blog-image/Ellipse 2 (2).png" alt="" />
+                        <img src={ellipseIm3} alt="" />
                         <h4 className="ellips-heading">Wade Warren</h4>
                         <span className="border"></span>
                     </div>
@@ -83,7 +98,7 @@ const BlogArticle = () => {
          </div>
          <div className="article-card">
             <div className="article-image">
-                <img src="/src/assets/blog-image/Mask Group (3).png" alt="" />
+                <img src={blogImg4} alt="" />
             </div>
             <div className="article-descriptions">
                 <h2 className="article-name">Simple & Delicious Vegetarian Lasagna</h2>
@@ -91,7 +106,7 @@ const BlogArticle = () => {
 
                 <div className="ellips-dates">
                     <div className="ellips">
-                        <img src="/src/assets/blog-image/Ellipse 2 (3).png" alt="" />
+                        <img src={ellipseIm4} alt="" />
                         <h4 className="ellips-heading">Wade Warren</h4>
                         <span className="border"></span>
                     </div>
@@ -103,7 +118,7 @@ const BlogArticle = () => {
          </div>
          <div className="article-card">
             <div className="article-image">
-                <img src="/src/assets/blog-image/Mask Group (4).png" alt="" />
+                <img src={blogImg5} alt="" />
             </div>
             <div className="article-descriptions">
                 <h2 className="article-name">Plantain and Pinto Stew with Aji Verde</h2>
@@ -111,7 +126,7 @@ const BlogArticle = () => {
 
                 <div className="ellips-dates">
                     <div className="ellips">
-                        <img src="/src/assets/blog-image/Ellipse 2 (4).png" alt="" />
+                        <img src={ellipseIm5} alt="" />
                         <h4 className="ellips-heading">Wade Warren</h4>
                         <span className="border"></span>
                     </div>
@@ -123,7 +138,7 @@ const BlogArticle = () => {
          </div>
          <div className="article-card">
             <div className="article-image">
-                <img src="/src/assets/blog-image/Mask Group (5).png" alt="" />
+                <img src={blogImg6} alt="" />
             </div>
             <div className="article-descriptions">
                 <h2 className="article-name">We're Hiring a Communications Assistant!</h2>
@@ -131,7 +146,7 @@ const BlogArticle = () => {
 
                 <div className="ellips-dates">
                     <div className="ellips">
-                        <img src="/src/assets/blog-image/Ellipse 2 (5).png" alt="" />
+                        <img src={ellipseIm6} alt="" />
                         <h4 className="ellips-heading">Wade Warren</h4>
                         <span className="border"></span>
                     </div>
@@ -148,7 +163,7 @@ const BlogArticle = () => {
             <div className="sidebar-article-category">
                 <div className="sidebar-article">
                 <div className="sidebar-article-image">
-                    <img src="/src/assets/blog-image/Mask Group (8).png" alt="" />
+                    <img src={blogImg7} alt="" />
                   </div>
                   <div className="sidebar-article-des">
                   <h2 className="sidebar-article-heading">Chicken Meatballs with Cream Cheese</h2>
@@ -157,7 +172,7 @@ const BlogArticle = () => {
                 </div>
                 <div className="sidebar-article">
                 <div className="sidebar-article-image">
-                    <img src="/src/assets/blog-image/Mask Group (6).png" alt="" />
+                    <img src={blogImg8} alt="" />
                   </div>
                   <div className="sidebar-article-des">
                   <h2 className="sidebar-article-heading">Traditional Bolognaise Ragu</h2>
@@ -166,7 +181,7 @@ const BlogArticle = () => {
                 </div>
                 <div className="sidebar-article">
                 <div className="sidebar-article-image">
-                    <img src="/src/assets/blog-image/Mask Group (7).png" alt="" />
+                    <img src={blogImg9} alt="" />
                   </div>
                   <div className="sidebar-article-des">
                   <h2 className="sidebar-article-heading">Pork and Chive Chinese Dumplings</h2>
@@ -175,7 +190,7 @@ const BlogArticle = () => {
                 </div>
             </div>
             <div className="sidebar-image">
-                <img src="/src/assets/recipes-categories/Ads.png" alt="" />
+                <img src={adsImg} alt="" />
             </div>
            </div>
         </div>

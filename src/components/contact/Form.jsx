@@ -1,5 +1,5 @@
 import "./Form.css"
-
+import contactImg from "../../../public/assets/contact-img/Group 13936.png"
 const Form = () => {
   return (
     <>
@@ -10,7 +10,7 @@ const Form = () => {
          </div>
     <div className=" contact-form">
         <div className="contact-image">
-            <img src="/src/assets/contact-img/Group 13936.png" alt="" />
+            <img src={contactImg} alt="" />
         </div>
         <div className="form-section">
             <form>

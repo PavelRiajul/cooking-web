@@ -1,12 +1,13 @@
 import "./Footer.css"
 import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa"
+import logo from "../../../public/assets/nav-hero/Foodieland..png"
 const Footer = () => {
   return (
     <>
     <div className="container footer">
         <div className="first-section">
         <div className="logo">
-            <img src="/src/assets/Foodieland..png" alt="" />
+            <img src={logo} alt="" />
             <p className="logo-text">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
         </div>
         <div className="nav">
