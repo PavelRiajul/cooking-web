@@ -1,5 +1,11 @@
 import "./Hero.css"
-
+import heroImage  from"../../../public/assets/nav-hero/baked-chicken-wings-asian-style-tomatoes-sauce-plate 1.png"
+import groupImage from "../../../public/assets/nav-hero/Group 828.png"
+import badgeImage from "../../../public/assets/nav-hero/Badge.png"
+import timerImg from "../../../public/assets/nav-hero/Timer.png"
+import forkKnifeImg from "../../../public/assets/nav-hero/ForkKnife.png"
+import ellipseImg from "../../../public/assets/nav-hero/Ellipse 2.png"
+import playCircle from "../../../public/assets/nav-hero/PlayCircle.png"
 const Hero = () => {
   return (
     <>
@@ -9,34 +15,34 @@ const Hero = () => {
             {/* hero text */}
             <div className="hero-text">
                 <div className="group-img">
-                   <img src="/public/assets/Group 828.png" alt="" />
+                   <img src={groupImage} alt="" />
                 </div>
                 <div className="badge-image">
-                    <img src="/public/assets/Badge.png" alt="" />
+                    <img src={badgeImage} alt="" />
                 </div>
                <h1 className="heading">Spicy delicious chicken wings</h1>
                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum veritatis tempora provident saepe cum, suscipit esse velit similique earum ?</p>
                <div className="btn-group">
                 <a className="btn" href="#">
-                    <img src="/public/assets/Timer.png" alt="" />
+                    <img src={timerImg} alt="" />
                     30 Minutes</a>
                 <a className="btn" href="#">
-                    <img src="/public/assets/ForkKnife.png" alt="" />
+                    <img src={forkKnifeImg} alt="" />
                     Chicken</a>
                </div>
                <div className="ellipes-btn">
                   <div className="ellipes">
-                    <img src="/public/assets/Ellipse 2.png" alt="" />
+                    <img src={ellipseImg} alt="" />
                   </div>
                   <div className="view-btn">
                     <a href="#">View Recipes </a>
-                    <img src="/public/assets/PlayCircle.png" alt="" />
+                    <img src={playCircle} alt="" />
                   </div>
                </div>
             </div>
             {/* hero-images */}
             <div className="hero-image">
-                <img src="/public/assets/baked-chicken-wings-asian-style-tomatoes-sauce-plate 1.png" alt="" />
+                <img src={heroImage} alt="" />
             </div>
         </div>
         <div className="right-box"></div>
