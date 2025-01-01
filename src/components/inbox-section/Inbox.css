@@ -20,7 +20,7 @@ body{
     background-color: #E7F9FD;
     height: 442px;
     border-radius: 60px;
-    background-image: url("/public/assets/inbox-image/kisspng-salad-salad-fresh-food-healthylife-vegetables-vegetarian-5d42e3a7cb8543\ 1.png"),url("/public/assets/inbox-image/Photo.png");
+    background-image: url("../../../public/assets/inbox-image/kisspng-salad-salad-fresh-food-healthylife-vegetables-vegetarian-5d42e3a7cb8543\ 1.png"),url("../../../public/assets/inbox-image/Photo.png");
     background-repeat: no-repeat no-repeat;
     background-position: bottom left,bottom right;
     
