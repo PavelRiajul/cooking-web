@@ -1,6 +1,9 @@
 import { FaInstagram } from "react-icons/fa"
 import "./InstaRecipes.css"
-
+import instaImg1 from "../../../public/assets/insta-image/Post.png"
+import instaImg2 from "../../../public/assets/insta-image/Post (1).png"
+import instaImg3 from "../../../public/assets/insta-image/Post (2).png"
+import instaImg4 from "../../../public/assets/insta-image/Post (3).png"
 const InstaRecipes = () => {
   return (
     <>
@@ -13,16 +16,16 @@ const InstaRecipes = () => {
         {/* insta-cards */}
         <div className=" insta-cards">
             <div className="insta-card">
-                <img src="/public/assets/insta-image/Post.png" alt="" />
+                <img src={instaImg1} alt="" />
             </div>
             <div className="insta-card">
-                <img src="/public/assets/insta-image/Post (1).png" alt="" />
+                <img src={instaImg2} alt="" />
             </div>
             <div className="insta-card">
-                <img src="/public/assets/insta-image/Post (2).png" alt="" />
+                <img src={instaImg3} alt="" />
             </div>
             <div className="insta-card">
-                <img src="/public/assets/insta-image/Post (3).png" alt="" />
+                <img src={instaImg4} alt="" />
             </div>
         </div>
         <div className="insta-btn">

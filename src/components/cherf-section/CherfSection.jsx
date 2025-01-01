@@ -1,5 +1,5 @@
 import './CherfSection.css'
-
+import chefImg from "../../../public/assets/cherf-section/Group 880.png"
 const CherfSection = () => {
   return (
     <>
@@ -13,7 +13,7 @@ const CherfSection = () => {
         </div>
         {/* chef image */}
         <div className="chef-image">
-            <img src="/public/assets/cherf-section/Group 880.png" alt="" />
+            <img src={chefImg} alt="" />
         </div>
     </div>
     </>
